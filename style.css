@@ -1,0 +1,247 @@
+/* common css */
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
+}
+
+body{
+    background-color: black;
+    font-family: "Inter", sans-serif;
+}
+
+section{
+    margin: 100px 190px 0;
+
+}
+
+.section-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+}
+
+.section-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.primary-btn{
+    width: 224px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    background: #E6533C;
+    text-align: center;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+/*............ header section */
+
+/* nav */
+
+header{
+    background: linear-gradient(180deg, #0c0c0c 10%, rgba(119, 119, 119, 0.267) 60%, #070707 100%);
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 190px 90px;
+    padding-top: 50px;
+
+}
+
+.logo{
+    margin: 0;
+}
+
+.logo h3{
+    color: #E6533C;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+    }
+
+.nav-bar{
+    margin: 0;
+    display: flex;
+    padding: 4px 35px 4px 4px;
+    align-items: center;
+    gap: 47px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    border-radius: 39px;
+}
+.nav-bar a{
+    font-size: 18px;
+    font-weight: 600;
+}
+.active{
+    border-radius: 46px;
+    background: #E6533C;
+    padding: 8px 20px;
+    justify-content: center;
+
+}
+
+
+.icon{
+    display: none;
+    color: white;
+}
+
+
+
+
+/* banner */
+
+.banner{
+    margin: 0 190px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 70px;
+
+}
+
+.banner-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.banner-heading{
+
+    color: #FFF;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 90px; 
+
+}
+
+span{
+    font-family: 'Miama', sans-serif;
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 90px;
+}
+
+.banner-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+
+}
+
+.banner-btn{
+    display: flex;
+    gap: 15px;
+
+}
+
+.secondary-btn{
+    width: 224px;
+    padding: 16px 40px;
+    border-radius: 42px;
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+
+}
+
+.banner-img{
+    position: relative;
+}
+
+.counter-1{
+    width: 180px;
+    height: 95px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(255, 255, 255, 0.10);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    left: 230px;
+    top: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.counter-1 h1{
+    color: #FFF;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 40px; 
+    letter-spacing: 1px;    
+}
+.counter-1 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 1px;
+}
+
+.counter-2{
+    width: 176px;
+    height: 86px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    background: rgba(48, 48, 48, 0.54);
+    backdrop-filter: blur(10px);
+    position: absolute;
+    right: 256px;
+    bottom: 63px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.badge{
+    width: 35px;
+    height: 35px;
+    background-color: rgba(230, 83, 60, 1);
+    border-radius: 100%;
+    pad: 0;
+
+}
+
+.counter-2 h1{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 40px; 
+    letter-spacing: 1px; 
+}
+.counter-2 p{
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px; 
+    letter-spacing: 1px;
+}
