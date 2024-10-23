@@ -248,6 +248,486 @@ span{
 
 
 
+/* ...............main section */
+
+/* habits section */
+
+.habit-section{
+    text-align: center;
+}
+
+.habit-content{
+    width: 60%;
+
+}
+
+.habit-card{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.card{
+
+}
+
+.card-img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    
+    margin-bottom: 25px;
+    
+}
+.card-img img{
+    border-radius: 100%;
+    padding: 5px;
+    width: 90%;
+}
+
+.card-title{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%; 
+    margin-bottom: 6px;
+}
+
+.card-description{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.3px;
+}
+
+
+
+/* run section */
+
+.run-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 165px;
+    padding: 30px 32px 29px 65px;
+    border-radius: 18px;
+background: #222;
+
+}
+
+.run-content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.run-img{
+    width: 50%;
+    border-radius: 18px;
+}
+.run-img img{
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+}
+.run-btn{
+    margin-top: 20px;
+    margin-left: 0;
+}
+
+
+/* training sectionn */
+
+.training-content{
+    width: 60%;
+    margin-left: 0;
+
+    margin-bottom: 60px;
+
+}
+
+
+
+.training-img-box{
+    width: 100%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    position: relative;
+
+}
+
+.box-1::before{
+    background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 209, 0.329) 100%) ;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+.box-2::before{
+    background: linear-gradient(0deg, rgba(255, 0, 0, 0.30) 0%, rgba(255, 0, 0, 0.30) 100%);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+.box-3::before{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%) ;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+.box-4::before{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50)) 100%;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+.box-5::before{
+    background: linear-gradient(0deg, rgba(66, 255, 0, 0.30) 0%, rgba(66, 255, 0, 0.30) 100%) ;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+.box-6::before{
+    background: linear-gradient(0deg, rgba(0, 71, 255, 0.30) 0%, rgba(0, 71, 255, 0.30) 100%);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+  }
+
+
+
+.box-1{
+    grid-column: 1/3;
+    position: relative;
+    
+
+}
+.box-2{
+    grid-column: 3/8;
+    position: relative;
+
+}
+.box-3{
+    grid-column: 8/-1;
+    position: relative;
+
+}
+.box-4{
+    grid-column: 1/5;
+    position: relative;
+
+}
+.box-5{
+    grid-column: 5/7;
+    position: relative;
+
+}
+.box-6{
+    grid-column: 7/-1;
+    position: relative;
+
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(0deg, rgba(6, 255, 210, 0.50) 0%, rgba(6, 255, 210, 0.50) 100%) ;
+}
+
+.img-txt{
+    color: white;
+    position: absolute;
+    bottom: 44px;
+    left: 40px;
+    width: 175px;
+
+    
+}
+.box-1 .img-txt{
+    color: black;
+
+}
+.box-2 .img-txt{
+    top: 35px;
+    left: 30px;
+
+}
+.box-4 .img-txt{
+    top: 35px;
+    left: 250px;
+
+}
+
+
+/* bmi section */
+
+.bmi-section{
+        margin: 150px 0px 0px;
+
+}
+
+.bmi-header{
+
+    width: 50%;
+    margin: 0 auto 88px;
+    
+
+}
+
+.bmi-calculator{
+background: #222;
+padding: 52px 190px;
+display: flex;
+
+gap: 50px ;
+
+}
+
+.chart{
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.chart-title{
+    color: #FFF;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 120%; 
+
+}
+
+.bmi-table{
+    margin-top: 50px;
+
+}
+
+table, th, td {
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    border-collapse: collapse;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 120%;
+    padding: 14px 20px;
+    text-align: center;
+  }
+
+  th {
+    color: white;
+}
+
+
+.calc-description{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+    margin: 14px 0 34px;
+
+}
+
+.bmi-form {
+    width: 100%;
+}
+
+.input-box{
+    display: flex;
+    width: 100%;
+    margin: 0;
+    gap: 15px;
+    border-radius: 8px;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    /* color: rgba(255, 255, 255, 0.60); */
+
+
+}
+input, select{
+    margin: 0;
+    width: 100%;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.10);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px; 
+    border: none;
+    padding: 12px 20px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+::placeholder{
+    
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.calc-btn{
+    margin-top: 34px;
+}
+
+
+/* team section */
+
+.team-section{
+    
+
+}
+
+.team-header{
+    width: 60%;
+    margin: 0 auto 58px;
+    text-align: center;
+
+}
+
+.team-card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(105, 101, 101, 0.37) 100%);
+    padding: 20px;
+    gap: 20px;
+    border-radius: 18px;
+    color: white;
+}
+
+
+.team-img{
+    border-radius: 18px;
+    height: 272px;
+    /* align-self: stretch; */
+    width: 300px;
+    
+}
+
+.team-img img{
+   width: 100%; 
+   height: 100%;
+   border-radius: 18px;
+}
+
+.team-content{
+    color: white;
+    position: absolute;
+    bottom: 32px;
+    left: 20px;
+}
+
+.card  {
+    position: relative;
+
+
+}
+.card p{
+    color: #ffffff96;
+}
+
+
+/* footer section */
+
+footer{
+    background: rgba(255, 255, 255, 0.10);
+    padding:66px 190px 35px ;
+    margin-top: 100px;
+
+}
+
+.footer-section{
+    display: flex;
+    justify-content: space-around;
+    gap: 102px;
+    align-items: center;
+
+}
+
+.footer-col-1{
+    width: 44%;
+
+}
+
+.flogo{
+    color: #E6533C;
+    font-size: 70px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 120%;
+    margin-bottom: 20px;
+
+}
+
+.fdesc{
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: 0.3px;
+
+}
+
+.footer-col-2, .footer-col-3 {
+    width: 25%;
+
+}
+
+
+.ftitle{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 30px;
+    padding-top: 30px;
+
+}
+
+.f-links a{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+.hr {
+    border: 1px solid rgba(255, 255, 255, 0.10);
+    margin: 70px 0 36px;
+    
+}
+
+.copyright{
+    text-align: center;
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+
+
+
+
 
 
 
@@ -258,6 +738,10 @@ span{
     /* *{
         width: 100%;
     } */
+
+    header{
+        padding: 0 30px;
+    }
 
     section{
         margin: 100px 30px 0;
@@ -285,6 +769,7 @@ span{
 
 nav{
     margin: 0px 20px 90px;
+    justify-content: space-between;
 
 }
 
@@ -295,13 +780,15 @@ nav{
     }
 
 .nav-bar{
-        display: none;
+    display: none;
+    padding: 0;
     }
 
 .icon{
         display: block;
         text-align: right;
         color: white;
+        margin: 0;
     }
 
 
@@ -311,7 +798,7 @@ nav{
 
 
 .banner{
-    /* margin: 0 30px; */
+    margin: 0 ;
     flex-direction: column;
     justify-content: start;
     align-items: center;
@@ -345,7 +832,7 @@ nav{
 }
 
 .counter-1{
-    width: 160px;
+    width: 150px;
     padding-left: 10px;
     
 }
@@ -355,10 +842,12 @@ nav{
 
 
 .counter-2{
-    width: 166px;
+    width: 150px;
     padding-left: 10px;
+    right: 216px;
 
 }
+
 
 .badge{
     width: 27px;
@@ -366,5 +855,319 @@ nav{
     margin-right: 9px;
 
 }
+
+
+/* ...............main section */
+
+/* habits section */
+
+/* 
+.habit-content{
+    width: 100%;
+    padding: 0 30px;
+}
+
+.habit-card{
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card{
+
+}
+
+.card-img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    
+}
+.card-img img{
+    width: 100%;
+}
+
+.card-title{
+    margin-bottom: 10px;
+}
+
+.card-description{
+    font-size: 16px;
+} */
+
+
+
+/* 
+
+/* ...............main section */
+
+/* habits section */
+
+
+.habit-content{
+    width: 100%;
+}
+
+.habit-card{
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.card{
+
+}
+
+.card-img{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    
+}
+.card-img img{
+    width: 100%;
+}
+
+.card-title{
+    margin-bottom: 10px;
+}
+
+.card-description{
+    font-size: 16px;
+} 
+
+
+/* run section */
+
+.run-section{
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+
+}
+
+.run-content{
+    width: 100%;
+}
+
+.run-img{
+    width: 100%;
+}
+.run-img img{
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+}
+.run-btn{
+    margin: 20px auto 0;
+}
+
+
+
+/* training sectionn */
+
+.training-content{
+    width: 100%;
+    margin-bottom: 50px;
+
+}
+
+
+
+.training-img-box{
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    position: relative;
+
+}
+
+
+
+
+.box-1{
+    grid-column: 1/2;
+    position: relative;
+    
+
+}
+.box-2{
+    grid-column: 2/-1;
+    position: relative;
+
+}
+.box-3{
+    grid-column: 1/2;
+    position: relative;
+
+}
+.box-4{
+    grid-column: 2/-1;
+    position: relative;
+
+}
+.box-5{
+    grid-column: 1/2;
+    position: relative;
+
+}
+.box-6{
+    grid-column: 2/-1;
+    position: relative;
+
+}
+
+.img-txt{
+    bottom: 24px;
+    left: 20px;
+
+    
+}
+.box-2 .img-txt{
+    top: 25px;
+    left: 20px;
+
+}
+.box-4 .img-txt{
+    top: 25px;
+    left: 20px;
+
+}
+
+
+
+/* bmi section */
+
+.bmi-section{
+    margin: 80px 0px 0px;
+
+}
+
+.bmi-header{
+padding: 0 30px;
+width: 100%;
+margin: 0 auto 58px;
+
+
+}
+
+.bmi-calculator{
+padding: 34px 20px;
+flex-direction: column;
+gap: 30px ;
+
+}
+
+.chart{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+width: 100%;
+
+}
+
+
+.bmi-table{
+margin-top: 30px;
+
+}
+
+table, th, td {
+padding: 14px 55px;
+}
+
+.input-box{
+padding: 12px 0px;
+
+
+}
+
+
+
+
+/* team section */
+
+.team-header{
+    width: 100%;
+
+}
+
+.team-card-container{
+    grid-template-columns: repeat(1, 1fr);
+}
+
+
+.team-img{
+    width: 100%;
+    
+}
+
+
+
+/* footer section */
+
+footer{
+    padding:0;
+
+}
+
+.footer-section{
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.footer-col-1{
+    width: 100%;
+
+}
+
+.flogo{
+    font-size: 40px;
+
+}
+
+
+.footer-col-2, .footer-col-3 {
+    width: 100%;
+
+}
+
+
+.ftitle{
+    margin-bottom: 10px;
+
+}
+
+.f-links a{
+    margin-bottom: 10px;
+}
+
+.hr {
+    margin: 30px 30px 16px;
+    
+}
+
+.copyright{
+    text-align: left;
+    color: rgba(240, 233, 233, 0.5);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    padding: 0 30px 10px;
+}
+
+
+
+
+
+
+
 
 }
