@@ -177,8 +177,8 @@ span{
 }
 
 .counter-1{
-    width: 180px;
-    height: 95px;
+    width: 10rem;
+    height: 5rem;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.10);
     background: rgba(255, 255, 255, 0.10);
@@ -207,8 +207,8 @@ span{
 }
 
 .counter-2{
-    width: 176px;
-    height: 86px;
+    width: 10rem;
+    height: 5rem;
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.10);
     background: rgba(48, 48, 48, 0.54);
@@ -644,6 +644,69 @@ input, select{
 }
 
 
+
+/* review section */
+
+.review-section{
+    text-align: center;
+}
+
+.review-content{
+    width: 60%;
+
+
+}
+
+.reviewcard{
+    
+    border: 1px solid rgba(255, 255, 255, 0.219);
+    border-radius: 18px;
+    padding: 20px 30px;
+    box-shadow: 9px 10px 5px rgba(255, 255, 255, 0.178);
+}
+
+.review-card{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    margin-top: 40px;
+    background-color: #ffffff13;
+    padding: 40px;
+}
+
+.card-img{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    margin-bottom: 15px;
+    
+}
+.card-img img{
+    border-radius: 100%;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.card-title{
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%; 
+    margin-bottom: 6px;
+}
+
+.card-description{
+    color: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: 0.3px;
+}
+
+
+
 /* footer section */
 
 footer{
@@ -735,9 +798,9 @@ footer{
 
 @media screen and (max-width: 576px){
 
-    /* *{
+    body{
         width: 100%;
-    } */
+    }
 
     header{
         padding: 0 30px;
@@ -757,9 +820,9 @@ footer{
     }
     
     .primary-btn{
-        width: 170px;
-        padding: 12px 20px;
-        font-size: 18px;
+        width: 9rem;
+        padding: 10px 12px;
+        font-size: 16px;
     }
     
     
@@ -821,23 +884,29 @@ nav{
 
 .banner-btn{
     display: flex;
-    gap: 15px;
+    gap: 10px;
 
 }
 
 .secondary-btn{
-    width: 180px;
-    padding: 12px 20px;
+    width: 9rem;
+    padding: 10px 12px;
+    font-size: 16px;
 
 }
 
 .counter-1{
-    width: 150px;
+    width: 8rem;
     padding-left: 10px;
+    left: 200px;
+    top: 90px;
     
 }
 .counter-1 h1{
-    font-size: 22px;   
+    font-size: 1.5rem;   
+}
+.counter-1 p{
+    font-size: .8rem;   
 }
 
 
@@ -856,49 +925,6 @@ nav{
 
 }
 
-
-/* ...............main section */
-
-/* habits section */
-
-/* 
-.habit-content{
-    width: 100%;
-    padding: 0 30px;
-}
-
-.habit-card{
-    flex-direction: column;
-    gap: 40px;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.card{
-
-}
-
-.card-img{
-    width: 250px;
-    height: 250px;
-    margin-bottom: 20px;
-    
-}
-.card-img img{
-    width: 100%;
-}
-
-.card-title{
-    margin-bottom: 10px;
-}
-
-.card-description{
-    font-size: 16px;
-} */
-
-
-
-/* 
 
 /* ...............main section */
 
@@ -1104,6 +1130,32 @@ padding: 12px 0px;
     width: 100%;
     
 }
+
+
+/* review section */
+
+
+.review-content{
+    width: 100%;
+}
+
+.review-card{
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+.reviewcard{
+    
+    border: 1px solid rgba(255, 255, 255, 0.219);
+    border-radius: 18px;
+    padding: 20px 0px;
+    box-shadow: 9px 10px 5px rgba(255, 255, 255, 0.178);
+}
+
+
 
 
 
