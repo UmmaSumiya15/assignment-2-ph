@@ -245,3 +245,126 @@ span{
     line-height: 20px; 
     letter-spacing: 1px;
 }
+
+
+
+
+
+
+/* responsive design */
+
+@media screen and (max-width: 576px){
+
+    /* *{
+        width: 100%;
+    } */
+
+    section{
+        margin: 100px 30px 0;
+    
+    }
+
+    .section-title{
+        font-size: 32px;
+    }
+    
+    .section-description{
+        font-size: 16px;
+    }
+    
+    .primary-btn{
+        width: 170px;
+        padding: 12px 20px;
+        font-size: 18px;
+    }
+    
+    
+    
+
+/* nav bar */
+
+nav{
+    margin: 0px 20px 90px;
+
+}
+
+
+
+.logo h3{
+    font-size: 35px;
+    }
+
+.nav-bar{
+        display: none;
+    }
+
+.icon{
+        display: block;
+        text-align: right;
+        color: white;
+    }
+
+
+
+
+/* banner */
+
+
+.banner{
+    /* margin: 0 30px; */
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.banner-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+
+.banner-heading{
+    font-size: 24px;
+
+}
+
+
+.banner-btn{
+    display: flex;
+    gap: 15px;
+
+}
+
+.secondary-btn{
+    width: 180px;
+    padding: 12px 20px;
+
+}
+
+.counter-1{
+    width: 160px;
+    padding-left: 10px;
+    
+}
+.counter-1 h1{
+    font-size: 22px;   
+}
+
+
+.counter-2{
+    width: 166px;
+    padding-left: 10px;
+
+}
+
+.badge{
+    width: 27px;
+    height: 25px;
+    margin-right: 9px;
+
+}
+
+}
